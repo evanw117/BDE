@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BDE Events</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Include header content, navigation bar, etc. -->
+    </header>
+
+    <main>
+        <section id="about-us">
+            <div>
+                <h2>Who We Are</h2>
+                <p>BDE EVENTS is a dedicated online platform created by a team of passionate individuals who understand the importance of fostering memorable and enjoyable nightlife experiences for students at ATU Galway. Our goal is to provide students with convenient access to curated "Night Out Packages" tailored to their preferences, allowing them to make the most out of their time outside of academics.</p>
+            </div>
+
+            <div>
+                <h2>Our Mission</h2>
+                <p>We are committed to enhancing the social lives of students by offering curated packages that cater to their specific needs and preferences. Our mission is to alleviate the stress of planning nightlife activities and empower students to create lasting memories with ease.</p>
+            </div>
+
+            <div>
+                <h2>What We Offer</h2>
+                <ul>
+                    <li>Curated "Night Out Packages" tailored to popular student nights</li>
+                    <li>Hassle-free planning and organization of evening activities</li>
+                    <li>Convenient online platform for easy access and booking</li>
+                    <li>Dedicated team committed to ensuring students have memorable experiences</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Why Choose Us</h2>
+                <ul>
+                    <li>Exclusive focus on enhancing the nightlife experiences of ATU Galway students</li>
+                    <li>Carefully curated packages designed with students' preferences in mind</li>
+                    <li>Seamless booking process and excellent customer service</li>
+                    <li>Passionate team dedicated to providing exceptional experiences for every student</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Get in Touch</h2>
+                <p>Have questions or want to learn more about our services? Feel free to reach out to us via email at <a href="mailto:info@atugalwaynightlife.com">info@atugalwaynightlife.com</a> or give us a call at <a href="tel:+123-456-7890">+123-456-7890</a>. We're here to assist you in making your nightlife experience at ATU Galway unforgettable.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Include footer content, navigation, etc. -->
+    </footer>
+</body>
+</html>
