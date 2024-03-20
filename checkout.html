@@ -4,15 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Packages</title>
-    <link rel="stylesheet" href="packages.css">
+    <link rel="stylesheet" href="cart.css">
 </head>
 <body>
     <header>
         <h1 class="title">Packages</h1>
-          
-            <!-- Cart icon -->
-          
-        </div>
+        <!-- Cart icon (if you have it) -->
     </header>
 
     <main class="container">
@@ -21,19 +18,16 @@
                 <h2>Christmas Jumper Day Package</h2>
                 <p>One of Galway’s biggest student night-out events...</p>
                 <button>Add to Cart</button>
-            </div>
-            <div class="image">
-                <img src="christmas jumper.jpg" alt="Christmas Jumper Day Package">
                 <form class="package-form">
                     <div class="form-group">
                         <label for="quantity">Quantity:</label>
                         <input type="number" id="quantity" name="quantity" value="1">
+                    </div>
                     <button type="submit">Add to Cart</button>
                 </form>
             </div>
 
             <div class="item">
-                <img src="newyearseve.jpg" alt="New Year’s Eve Day Package">
                 <h2>New Year’s Eve Day Package</h2>
                 <p>New Year's Eve Day Package provides college students with...</p>
                 <button>Add to Cart</button>
@@ -41,12 +35,12 @@
                     <div class="form-group">
                         <label for="quantity">Quantity:</label>
                         <input type="number" id="quantity" name="quantity" value="1">
+                    </div>
                     <button type="submit">Add to Cart</button>
                 </form>
             </div>
 
             <div class="item">
-                <img src="ragweek.jpg" alt="Rag Week Package">
                 <h2>Rag Week Package</h2>
                 <p>Colleges busiest week for night-out events...</p>
                 <button>Add to Cart</button>
@@ -54,12 +48,12 @@
                     <div class="form-group">
                         <label for="quantity">Quantity:</label>
                         <input type="number" id="quantity" name="quantity" value="1">
+                    </div>
                     <button type="submit">Add to Cart</button>
                 </form>
             </div>
 
             <div class="item">
-                <img src="galwayraces.jpg" alt="Galway Student Races Package">
                 <h2>Galway Student Races Package</h2>
                 <p>The Galway Races is a famous horse racing festival...</p>
                 <button>Add to Cart</button>
@@ -67,11 +61,23 @@
                     <div class="form-group">
                         <label for="quantity">Quantity:</label>
                         <input type="number" id="quantity" name="quantity" value="1">
+                    </div>
                     <button type="submit">Add to Cart</button>
                 </form>
             </div>
         </section>
     </main>
 
+    <!-- Checkout Section -->
+    <form class="checkout-form">
+        <label>
+            <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+    </form>
+
     <div class="cartTab">
         <!-- Cart content -->
+    </div>
+</body>
+</html>
